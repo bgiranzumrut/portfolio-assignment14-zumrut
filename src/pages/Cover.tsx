@@ -1,4 +1,5 @@
-// src/pages/Cover.tsx
+import React from 'react';
+
 import Img from '../components/Img/Img';
 
 const Cover = () => (

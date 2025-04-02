@@ -1,3 +1,5 @@
+import React from 'react';
+
 import Text from '../components/Text/Text';
 import Label from '../components/Label/Label';
 
@@ -7,13 +9,16 @@ const BasicInfo = () => (
       <h1>Hello, I’m Busra</h1>
       <Label text="Welcome to my developer portfolio." />
       <Text>
-        This interactive magazine-style site highlights my progress, hands-on projects, and growth as a full stack developer student.
+        This interactive magazine-style site highlights my progress, hands-on
+        projects, and growth as a full stack developer student.
       </Text>
       <Text>
-        Each page presents a snapshot of what I’ve built — from component libraries to Dockerized apps.
+        Each page presents a snapshot of what I’ve built — from component
+        libraries to Dockerized apps.
       </Text>
       <Text>
-        I care deeply about building accessible and ethical tech solutions. Thank you for flipping through!
+        I care deeply about building accessible and ethical tech solutions.
+        Thank you for flipping through!
       </Text>
       <div style={{ marginTop: '1rem' }}>
         <Text>📍 Winnipeg, MB</Text>
