@@ -1,30 +1,21 @@
+import Text from '../components/Text/Text';
+import Label from '../components/Label/Label';
 
-const Skills = () => {
-  return (
-    <div style={{ padding: "2rem", textAlign: "center" }}>
-      <h2>Skills</h2>
-      <p>
-        I have developed skills in full stack development through hands-on projects,
-        using modern web technologies and tools to build responsive, accessible, and maintainable applications.
-      </p>
-
-      <h3>Languages & Frameworks</h3>
+const Skills = () => (
+  <div className="page">
+    <div className="page content">
+      <Label text="Skills" />
+      <Text>
+        I have developed skills in full stack development through hands-on projects using:
+      </Text>
       <ul>
-        <li>HTML, CSS, JavaScript, TypeScript</li>
-        <li>React, Vite, Node.js</li>
-        <li>PHP, SQL, Java (basic)</li>
-      </ul>
-
-      <h3>Tools</h3>
-      <ul>
-        <li>VSCode, Git, GitHub</li>
-        <li>Docker (used for production builds)</li>
-        <li>Jest & Testing Library (for component testing)</li>
-        <li>Prettier, ESLint (for code style and linting)</li>
-        <li>GitHub Actions (for CI/CD in component library)</li>
+        <li>Languages: HTML, CSS, JavaScript, TypeScript, PHP, SQL, Java (basic)</li>
+        <li>Frameworks: React, Vite, Node.js</li>
+        <li>Tools: VSCode, Git, GitHub, Docker, ESLint, Prettier</li>
+        <li>CI/CD: GitHub Actions</li>
       </ul>
     </div>
-  );
-};
+  </div>
+);
 
 export default Skills;

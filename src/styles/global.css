@@ -1,0 +1,103 @@
+body {
+  font-family: var(--font-main);
+  background-color: var(--beige);
+  color: var(--soft-black);
+  margin: 0;
+  padding: 0;
+}
+
+/* Prevent horizontal overflow */
+body, html, #root {
+  overflow-x: hidden;
+}
+
+
+.App {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  padding: 2rem;
+}
+
+.flipbook {
+  margin: auto;
+}
+
+.page {
+  background-color: var(--beige);
+  padding: 2rem;
+  padding-top: none;
+  margin-top: none;
+  margin-right: 2rem;
+  border-radius: var(--radius-lg);
+  box-shadow: var(--shadow-soft);
+  display: flex;
+  flex-direction: column;
+  justify-content: center;
+  align-items: center;
+  height: 100%;
+  overflow: hidden;
+}
+
+.page-content {
+  max-width: 500px;
+  text-align: left;
+
+}
+
+
+/* Remove nested shadows */
+.flipbook > div {
+  box-shadow: none !important;
+}
+
+.flipbook > div > div {
+  box-shadow: none !important;
+}
+.flipbook > div > div > div {
+  box-shadow: none !important;
+}
+.flipbook > div > div > div > div {
+  box-shadow: none !important;
+}
+
+
+
+/* Adjust link */
+a {
+  color: var(--deep-sage);
+  text-decoration: none;
+}
+
+a:hover {
+  text-decoration: underline;
+}
+
+
+
+/* src/styles/global.css */
+
+/* src/styles/global.css */
+
+.cover-full {
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  background-color: var(--beige);
+  width: 100%;
+  height: 100%;
+  box-shadow: none !important; /* Removes extra FlipBook frames */
+}
+
+.cover-image {
+  border-radius: 2rem;
+  width: 380px;
+  max-width: 100%;
+  height: auto;
+  box-shadow: var(--shadow-soft);
+  transition: transform 0.3s ease;
+}
+
+.cover-image:hover {
+  transform: scale(1.04);
+}

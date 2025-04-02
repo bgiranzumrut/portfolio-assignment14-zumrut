@@ -1,0 +1,13 @@
+:root {
+  --sage: #9CAF88;
+  --beige: #F5F3EB;
+  --deep-sage: #6B7A55;
+  --white: #FFFFFF;
+  --soft-black: #2F2F2F;
+
+  --font-main: 'Open Sans', sans-serif;
+  --font-mono: 'Fira Code', monospace;
+
+  --radius-lg: 1.25rem;
+  --shadow-soft: 0 8px 20px rgba(0, 0, 0, 0.08);
+}

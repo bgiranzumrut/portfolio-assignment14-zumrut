@@ -14,4 +14,6 @@ export interface ImgProps {
   borderRadius?: string;
   /** When true, applies disabled styling (e.g., greyed out and non-clickable) */
   disabled?: boolean;
+
+  className?: string;
 }

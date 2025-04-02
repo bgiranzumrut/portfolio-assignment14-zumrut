@@ -1,37 +1,27 @@
-import Img from '../components/Img/Img';
 import Text from '../components/Text/Text';
 import Label from '../components/Label/Label';
 
-const BasicInfo = () => {
-  return (
-    <div className="basic-info-page" style={{ padding: '2rem', textAlign: 'center' }}>
-      <style>
-        {`
-          .profile-image {
-            border-radius: 50%;
-            margin-bottom: 1rem;
-          }
-        `}
-      </style>
-      <Img
-        src="/assets/profile.jpg" // place your image in public/assets/profile.jpg
-        alt="Busra Giran Zumrut Portrait"
-        width="150px"
-        height="150px"
-
-      />
-
-      <Label text="Hello, I'm Busra" />
-      <Text>Full Stack Developer Student | Passionate about Accessibility...</Text>
-
-
+const BasicInfo = () => (
+  <div className="page">
+    <div className="page content">
+      <h1>Hello, I’m Busra</h1>
+      <Label text="Welcome to my developer portfolio." />
+      <Text>
+        This interactive magazine-style site highlights my progress, hands-on projects, and growth as a full stack developer student.
+      </Text>
+      <Text>
+        Each page presents a snapshot of what I’ve built — from component libraries to Dockerized apps.
+      </Text>
+      <Text>
+        I care deeply about building accessible and ethical tech solutions. Thank you for flipping through!
+      </Text>
       <div style={{ marginTop: '1rem' }}>
-        <Text>Winnipeg, MB"</Text>
-        <Text>busragiran@example.com</Text>
-        <Text>github.com/bgiranzumrut</Text>
+        <Text>📍 Winnipeg, MB</Text>
+        <Text>📧 busragiran@example.com</Text>
+        <Text>🌐 github.com/bgiranzumrut</Text>
       </div>
     </div>
-  );
-};
+  </div>
+);
 
 export default BasicInfo;
