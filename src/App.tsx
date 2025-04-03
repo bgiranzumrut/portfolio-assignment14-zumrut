@@ -3,10 +3,13 @@ import HTMLFlipBook from 'react-pageflip';
 
 import Cover from './pages/Cover';
 import BasicInfo from './pages/BasicInfo';
-import Work from './pages/Work';
+// Ensure Work1.tsx exists in the ./pages directory or rename this import to match the correct file name.
+import Work1Image from './pages/Work1Image';
+import Work1 from './pages/Work1';
 import Skills from './pages/Skills';
 import Resources from './pages/Resources';
 import DeveloperSetup from './pages/DeveloperSetup';
+import DeveloperSetup2 from './pages/DeveloperSetup2';
 
 function App() {
   return (
@@ -29,8 +32,12 @@ function App() {
       <div className="page">
         <BasicInfo />
       </div>
+
       <div className="page">
-        <Work />
+        <Work1Image />
+      </div>
+      <div className="page">
+        <Work1 />
       </div>
       <div className="page">
         <Skills />
@@ -40,6 +47,9 @@ function App() {
       </div>
       <div className="page">
         <DeveloperSetup />
+      </div>
+      <div className="page">
+        <DeveloperSetup2 />
       </div>
     </HTMLFlipBook>
   );

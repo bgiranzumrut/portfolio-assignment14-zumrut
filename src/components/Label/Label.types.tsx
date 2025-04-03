@@ -8,4 +8,8 @@ export interface LabelProps {
   htmlFor?: string;
   /** When true, applies disabled styling (e.g., greyed out and non-interactive) */
   disabled?: boolean;
+
+  className?: string;
+
+  color?: string;
 }
