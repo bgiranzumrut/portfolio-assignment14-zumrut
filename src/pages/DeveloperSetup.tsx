@@ -12,7 +12,7 @@ const FlipHint = () => (
 const DeveloperSetup = () => (
   <div className="page">
     <div className="page content">
-      <h1>Developer Setup</h1>
+      <h1> My Developer Setup</h1>
 
       <Text>
         <strong>Editor:</strong> Visual Studio Code (VSCode)
