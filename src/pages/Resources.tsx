@@ -1,6 +1,5 @@
 import React from 'react';
 import { RotateCcw } from 'lucide-react';
-// Make sure this path is correct
 
 const resources = [
   {
