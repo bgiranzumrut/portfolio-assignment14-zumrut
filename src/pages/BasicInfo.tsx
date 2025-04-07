@@ -22,7 +22,7 @@ const BasicInfo = () => (
       <Text>Each page presents a snapshot of what I’ve built and learned.</Text>
       <Text>Thank you for flipping through!</Text>
       <div style={{ marginTop: '1rem' }}>
-        <Text>📍 Winnipeg, MB</Text>
+        <Text>📍 Winnipeg, Manitoba</Text>
         <Text>🌐 github.com/bgiranzumrut</Text>
       </div>
 

@@ -9,8 +9,7 @@
     "lint": "eslint .",
     "preview": "vite preview",
     "prepare": "husky install",
-    "test": "jest",
-    "prettier:fix": "prettier --write ."
+    "test": "jest"
   },
   "dependencies": {
     "lucide-react": "^0.487.0",
